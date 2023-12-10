@@ -7,8 +7,8 @@ function Tops() {
                 <div className="flex items-center me-4">
                     <img className="w-5 mx-4 h-5 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxw0eitGgbS6Y3kJODK5lGbWxUV8sONkQUZg&usqp=CAU" alt="Rounded avatar" />
                     <p>
-                        kkami575409@gmail.com
-                        <p>Image</p>
+                        Adminpannel123@gmail.com
+                        <p>Admin</p>
                     </p>
                 </div>
             </button>
