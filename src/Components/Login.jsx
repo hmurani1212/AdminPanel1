@@ -8,7 +8,7 @@ function Login() {
     const [password, setpassword] = useState("");
     const LoginHandle = (e) => {
         e.preventDefault()
-        if (email === "kkami5754049@gmail.com" && password === "12345") {
+        if (email === "Adminpannel123@gmail.com" && password === "12345") {
             localStorage.setItem("email", "kkami5754049@gmail.com")
             window.location.reload();
             navigate("/")
