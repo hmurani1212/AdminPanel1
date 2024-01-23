@@ -8,7 +8,7 @@ function Login() {
     const [password, setpassword] = useState("");
     const LoginHandle = (e) => {
         e.preventDefault()
-        if (email === "Adminpannel123@gmail.com" && password === "12345") {
+        if (email === "admin123@gmail.com" && password === "12345") {
             localStorage.setItem("email", "kkami5754049@gmail.com")
             window.location.reload();
             navigate("/")
@@ -20,7 +20,8 @@ function Login() {
     return (
         <div>
             <form className='w-[800px] ml-48 mt-20' onSubmit={LoginHandle}>
-                {error1}
+                {error1} 
+                 <h1>Enter to login (email === "admin123@gmail.com" && password === "12345")</h1>
                 <div className="mb-6">
                     <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
                     <input type="email" value={email} onChange={(e) => setemail(e.target.value)} id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
