@@ -15,7 +15,7 @@ function Dashbord() {
             <div className="p-4 sm:ml-64">
                 <Tops />
                 <h1 className="mb-4 text-xl font-extrabold  text-gray-900 dark:text-white md:text-2xl lg:text-2xl my-3"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Dashbord</span></h1>
-               <h1>Note! Sorry Backend is not running</h1>
+               <h1 className="text-red">Note! Sorry Backend is not running</h1>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-24  mr-10">
                     <div className='items-center'>
                         <div className="max-w-sm p-6  text-center items-center bg-[#A4CAFE] border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
